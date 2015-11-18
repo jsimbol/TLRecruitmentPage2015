@@ -1,0 +1,364 @@
+h1 {
+	color: #ffffff;
+	font-family: 'Helvetica Neue', Helvetica, Arial;
+	font-weight: normal;
+	font-size:3em;
+	margin:0;
+	vertical-align: top;
+}
+
+#bodyWrapper {
+	width:100vw;
+}			
+
+h2 {
+	color: #ffffff;
+	font-family: 'Helvetica Neue', Helvetica, Arial;
+	font-weight: normal;
+	font-size:1.25em;
+	margin:0;
+}
+
+div {
+	display:inline-block;
+}
+
+
+font {
+	font-family: 'Helvetica Neue', Helvetica, Arial;
+	font-weight: normal;
+	font-size:1em;}
+
+.spacer {
+	display:block;
+	height:3em;
+}
+
+.fader {
+	background-color:rgba(0,0,0,0.5);
+	height:100%;
+	width:100%;
+}
+
+#topWrapper {
+	margin-top:10em;
+	width:auto;
+	margin-right:1em;
+	margin-left:1em;
+}
+
+#topSectionWrapper {
+	background-image: url('http://go.brighttalk.com/rs/105-RTY-982/images/BackgroundImage copy.jpg');
+	background-size: cover;
+	background-position:50% 20%;
+	height:auto;
+	/*min-height:85vh;*/
+}
+
+#iconWrapper {
+	width:auto;
+	margin-left:10vw;
+}
+
+#headerBottomSpacer {
+	height:5vh;
+}
+
+#topIcon {
+	height:3em;
+	margin-top:-0.25em;
+}
+
+#topText {
+	text-align:center;
+}
+
+#selectionBarWrapper {
+	width:100%;
+}
+
+.selectionBox {
+	height:10em;
+	width:18em;
+	background-color:#227700;
+	margin: 0.25em 0.25em 0.25em 0.25em;
+}
+
+.wrapper {
+	width:100%;
+}
+
+#formWrapper {
+	background-color:#f0f0f0;
+	width:30em;
+	margin-top:-1em;
+	padding-right:1em;
+}
+
+#sectionHeader {
+	color:#333;
+	font-size:2em;
+}
+
+#sectionSubHeading {
+	color:#333;
+	font-size:1em;
+}
+
+#whoWrapper {
+	background-color:#ffffff;
+}
+
+.container {
+	width:50%;
+	text-align:left;
+}
+
+#howWrapper {
+	background-color:#fff;
+	height:75vh;
+}
+
+#whyList {
+	margin: 1em;
+}
+
+#whyList li {
+	margin:1em;
+}
+
+#audienceWrapper {
+	background-color:#fff;
+}
+#containerSpacer {
+	height:2em;
+}
+#requestWrapper {
+	background-color:#fff;
+	height:75vh;
+}
+
+#headerSelectionBarSpacer {
+	height:30vh;
+}
+
+.menuBar {
+	width:100%;
+	background-color:#ffffff;
+	height:3.25em;
+	position:fixed;
+	border-bottom:2px solid #f0f0f0;
+}
+
+.mainCTA {
+	color:#ffffff;
+	text-decoration:none;
+}
+
+.ctaDiv {
+	background-color:#227700;
+	padding: 0.5em 2em 0.5em 2em;
+	font-family: 'Helvetica Neue', Helvetica, Arial;
+	font-weight: normal;
+	font-size:1.25em;
+	text-color:#ffffff;
+}
+
+#topBarSpacer {
+	height:5em;
+}
+
+#topMenuBar {
+	z-index:100;
+}
+
+#menuBarCTAWrapper {
+	text-align:right;
+	margin-top:-2.5em;
+	display:none;
+}
+
+#topBarButton {
+	text-color:#ffffff;
+}
+
+#topButtonDiv {
+	color:#ffffff;
+}
+
+.contentImage {
+	width:100%;
+}
+
+#how {
+	text-align:right;
+}
+
+#request {
+	text-align:right;
+}
+
+#outContainerSpacer {
+	height:15em;
+}
+
+.site-footer {
+    background: #f0f0f0;
+    color: #4d4d4d;
+    font-size:12px;
+    padding-top:5em;
+    text-align: center;
+    font-family: Arial, helvetica, sans-serif;
+    width:100%;
+}
+
+.site-footer a {
+    font-size: 18px;
+}
+
+.site-footer .site-footer-link-list a {
+    font-size: 12px;
+}
+
+.site-footer .site-footer-headline {
+    font-size: 18px;
+    line-height: 1;
+    margin: 0 0 65px;
+    text-align: center
+}
+
+.site-footer .site-footer-headline .site-footer-headline-link {
+    color: #270;
+    text-decoration: none
+}
+
+.site-footer .site-footer-headline .site-footer-headline-link:hover {
+    text-decoration: underline
+}
+
+.site-footer .site-footer-link-list {
+    margin: 0 auto 65px
+}
+
+.site-footer .site-footer-link-list:before,.site-footer .site-footer-link-list:after {
+    content: " ";
+    display: table
+}
+
+.site-footer .site-footer-link-list:after {
+    clear: both
+}
+
+.site-footer .site-footer-link-list .site-footer-link-list-item {
+    display: inline-block;
+    margin: 0;
+    padding: 0 17px;
+}
+
+.site-footer .site-footer-link-list .site-footer-link-list-item .site-footer-link {
+    border: 0;
+    color: #4d4d4d;
+    display: inline;
+    padding: 0;
+    text-decoration: none
+}
+
+.site-footer .site-footer-link-list .site-footer-link-list-item .site-footer-link:hover {
+    color: #270;
+    text-decoration: underline
+}
+
+.site-footer .site-footer-copyright {
+    border: 0;
+    margin: 0 0 20px;
+    padding: 0;
+}
+
+@media only screen and (max-device-width: 480px) {
+
+	#topSectionWrapper {
+		min-height:1vh;
+		background-image:none;
+		background-color:#fff;
+		width:100%;
+	}
+
+	#headerSelectionBarSpacer {
+		height:5vh;
+	}
+
+	#topBarSpacer {
+		height:5vh;
+	}
+
+	#whoWrapper {
+		height:auto;
+		background-color:#f0f0f0;
+	}
+
+	#audienceWrapper {
+		height:auto;
+		background-color:#f0f0f0;
+	}
+
+	#howWrapper {
+		height:auto;
+		background-color:#f0f0f0;
+	}
+
+	#requestWrapper {
+		height:auto;
+		background-color:#f0f0f0;
+	}
+
+	.container {
+		width:75%;
+	}
+
+	.ctaDiv {
+		font-size:2.25em;
+	}
+
+	h1 {
+		color:#4D4D4D;
+		font-size:4em;
+	}
+
+	h2 {
+		color:#4d4d4d;
+		font-size:;
+	}
+
+	#topBarButton {
+		display:none;
+	}
+
+	#outContainerSpacer {
+		background-color:#f0f0f0;
+	}
+
+	#topMenuBar {
+		border-bottom:none;
+		position:relative;
+	}
+
+	.site-footer {
+		padding:0px;
+		background-color:#f0f0f0;
+	}
+
+	html {
+		background-color:#f0f0f0;
+	}
+
+	#topWrapper {
+		margin-top:1vh;
+		margin-bottom:3vh;
+	}
+
+	#formWrapper {
+		background-color:#123456;
+		width:100%;
+		height:30em;
+	}
+}

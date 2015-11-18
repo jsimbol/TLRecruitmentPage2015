@@ -1,0 +1,470 @@
+h1 {
+	color: #ffffff;
+	font-family: 'Helvetica Neue', Helvetica, Arial;
+	font-weight: normal;
+	font-size:3em;
+	margin:0;
+	vertical-align: top;
+}
+
+#bodyWrapper {
+	width:100vw;
+}			
+
+h2 {
+	color: #ffffff;
+	font-family: 'Helvetica Neue', Helvetica, Arial;
+	font-weight: normal;
+	font-size:1.25em;
+	margin:0;
+}
+
+div {
+	display:inline-block;
+}
+
+
+#whyList {
+	padding:0px;
+	margin:0;
+	text-align:left;
+}
+
+li {
+	margin:1em;
+}
+
+.testimonialImage {
+	height:13em;
+}
+
+font {
+	font-family: 'Helvetica Neue', Helvetica, Arial;
+	font-weight: normal;
+	font-size:1em;
+}
+
+.testimonialWrapper {
+	padding: 0px 0.5em 0px 0.5em;
+}
+
+.testimonialText {
+	width:60%;
+	min-height:10em;
+	display:inline-block;
+	vertical-align: top;
+	text-align:left;
+	padding-left:1em;
+	font-family: 'Helvetica Neue', Helvetica, Arial;
+}
+
+.spacer {
+	display:block;
+	height:3em;
+}
+
+.fader {
+	background-color:rgba(0,0,0,0.5);
+	height:100%;
+	width:100%;
+}
+
+#topWrapper {
+	margin:auto;
+}
+
+#topSectionWrapper {
+	background-image: url(http://go.brighttalk.com/rs/105-RTY-982/images/BackgroundImage.jpg);
+	background-size: cover;
+	background-position:50% 20%;
+	min-height:85vh;
+}
+
+#iconWrapper {
+	width:auto;
+	margin-left:15vw;
+}
+
+#topIcon {
+	height:3em;
+	margin-top:-0.25em;
+}
+
+#topMenuBar {
+	z-index:100;
+}
+
+#topText {
+	text-align:left;
+	margin-left:15vw
+}
+
+#selectionBarWrapper {
+	width:100%;
+}
+
+.selectionBox {
+	height:10em;
+	width:18em;
+	background-color:#227700;
+	margin: 0.25em 0.25em 0.25em 0.25em;
+}
+
+.wrapper {
+	width:100%;
+}
+
+
+#sectionHeader {
+	color:#333;
+	font-size:2em;
+}
+
+#sectionSubHeading {
+	color:#333;
+	font-size:1em;
+}
+
+#whoWrapper {
+	background-color:#ffffff;
+}
+
+.container {
+	width:50%;
+	text-align:left;
+}
+
+#testimonial {
+	width:100%;
+	padding:;
+}
+
+#howWrapper {
+	background-color:#fff;
+
+}
+
+#audienceWrapper {
+	background-color:#fff;
+}
+
+#requestWrapper {
+	background-color:#66cc00;
+}
+
+#headerSelectionBarSpacer {
+	height:30vh;
+}
+
+.menuBar {
+	width:100%;
+	background-color:#ffffff;
+	height:3.25em;
+	position:fixed;
+	border-bottom:2px solid #f0f0f0;
+}
+
+.mainCTA {
+	color:#ffffff;
+	text-decoration:none;
+}
+
+.ctaDiv {
+	background-color:#227700;
+	padding: 0.5em 2em 0.5em 2em;
+	font-family: 'Helvetica Neue', Helvetica, Arial;
+	font-weight: normal;
+	font-size:1.25em;
+	text-color:#ffffff;
+}
+
+#topBarSpacer {
+	height:30vh;
+}
+
+
+
+#menuBarCTAWrapper {
+	text-align:right;
+	display:none;
+	max-width:275px;
+	top:3px;
+	position:fixed;
+	right:0px;
+}
+
+#topBarButton {
+	text-color:#ffffff;
+}
+
+#topButtonDiv {
+	color:#ffffff;
+}
+
+.contentImage {
+	width:80%;
+}
+
+#formWrapper {
+	background-color:#f0f0f0;
+	width:30em;
+	margin:1em 0 1em 0;
+}
+
+#formHeader {
+	color:#4d4d4d;
+	font-size:2em;
+}
+
+
+#how {
+	text-align:left;
+}
+
+#request {
+	text-align:center;
+	width:100%;
+	background-color:#f0f0f0;
+	padding:0em 0 5em 0;
+}
+
+#outContainerSpacer {
+	height:1vh;
+}
+
+.site-footer {
+    background: #f0f0f0;
+    color: #4d4d4d;
+    font-size:12px;
+    text-align: center;
+    font-family: Arial, helvetica, sans-serif;
+    width:100%;
+    display:none;
+}
+
+.site-footer a {
+    font-size: 18px;
+}
+
+.site-footer .site-footer-link-list a {
+    font-size: 12px;
+}
+
+.site-footer .site-footer-headline {
+    font-size: 18px;
+    line-height: 1;
+    margin: 0 0 65px;
+    text-align: center
+}
+
+.site-footer .site-footer-headline .site-footer-headline-link {
+    color: #270;
+    text-decoration: none
+}
+
+.site-footer .site-footer-headline .site-footer-headline-link:hover {
+    text-decoration: underline
+}
+
+.site-footer .site-footer-link-list {
+    margin: 0 auto 65px
+}
+
+.site-footer .site-footer-link-list:before,.site-footer .site-footer-link-list:after {
+    content: " ";
+    display: table
+}
+
+.site-footer .site-footer-link-list:after {
+    clear: both
+}
+
+.site-footer .site-footer-link-list .site-footer-link-list-item {
+    display: inline-block;
+    margin: 0;
+    padding: 0 17px;
+}
+
+.site-footer .site-footer-link-list .site-footer-link-list-item .site-footer-link {
+    border: 0;
+    color: #4d4d4d;
+    display: inline;
+    padding: 0;
+    text-decoration: none
+}
+
+.site-footer .site-footer-link-list .site-footer-link-list-item .site-footer-link:hover {
+    color: #270;
+    text-decoration: underline
+}
+
+.site-footer .site-footer-copyright {
+    border: 0;
+    margin: 0 0 20px;
+    padding: 0;
+}
+
+#testimonialSpacer {
+	display:none;
+	height:2em;
+}
+
+
+.imgHover {
+    display: inline;
+    position: relative;
+}
+.hover {
+    display: none;
+    position: absolute;
+    right:0;
+    z-index: 2;
+    vertical-align: middle;
+    width:100%;
+}
+
+
+@media only screen and (max-device-width: 480px) {
+
+	#topSectionWrapper {
+		min-height:1vh;
+		background-image:none;
+		background-color:#fff;
+		width:100%;
+	}
+
+	#headerSelectionBarSpacer {
+		height:5vh;
+	}
+
+	#topBarSpacer {
+		height:5vh;
+	}
+
+	#whoWrapper {
+		height:auto;
+		background-color:#f0f0f0;
+	}
+
+	#audienceWrapper {
+		height:auto;
+		background-color:#f0f0f0;
+	}
+
+	#howWrapper {
+		height:auto;
+		background-color:#f0f0f0;
+	}
+
+	#requestWrapper {
+		background-color:#f0f0f0;
+	}
+
+	#request {
+		background-color:#ffffff;
+	}
+
+	.container {
+		width:75%;
+	}
+
+	.ctaDiv {
+		font-size:2.25em;
+	}
+
+	h1 {
+		color:#4D4D4D;
+		font-size:5em;
+	}
+
+	h2 {
+		display:none;
+	}
+
+	#topBarButton {
+		display:none;
+	}
+
+	#outContainerSpacer {
+		background-color:#f0f0f0;
+	}
+
+	#containerSpacer {
+		background-color:#f0f0f0;
+	}
+
+	#topMenuBar {
+		border-bottom:none;
+		position:relative;
+	}
+
+	#request #containerSpacer {
+		background-color:#fff;
+	}
+
+	.site-footer {
+		display:none;
+		padding:0px;
+		background-color:#f0f0f0;
+	}
+
+	#sectionHeader {
+		font-size:4em;
+	}
+
+	#formHeader {
+		font-size:4em;
+	}
+
+	html {
+		background-color:#f0f0f0;
+	}
+
+	#sectionSubHeading {
+		font-size:2em;
+	}
+
+	.testimonialText {
+		font-size:2em;
+		padding-left:0em;
+		width:100%;
+	}
+
+	#request {
+		padding-top:1em;
+	}
+
+	#testimonialSpacer {
+		display:block;
+	}
+
+
+	#testimonial {
+		text-align:center;
+	}
+
+	#testimonialWrapper {
+		background-color:#f0f0f0;
+	}
+
+	#formWrapper {
+		background-color:#fff;
+		width:100%;
+		height:30em;
+	}
+
+	.contentImage {
+		width:100%;
+		background-color:#fff;
+		padding:1em;
+	}
+
+	.testimonialImage {
+		width:100%;
+		height:auto;
+	}
+
+	hr {
+		display:none;
+	}
+}
